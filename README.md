@@ -7,7 +7,7 @@
 
 ### How do I get set up? ###
 
-* IDE: Android Studio (tested with 1.5.1 and 2.1.2)
+* IDE: Android Studio (tested with 2.1.2)
 * Android SDK
 * Dependencies: ZXing (Zebra Crossing) library for barcode detection (automatically included by Gradle)
 * Database configuration: Database is located in be.pxl.troger.ar.tools.BarcodeDatabase.java
