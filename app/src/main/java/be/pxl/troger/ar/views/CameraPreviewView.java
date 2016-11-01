@@ -84,7 +84,7 @@ public class CameraPreviewView extends SurfaceView implements SurfaceHolder.Call
     /**
      * whether or not a picture shall be taken after barcode recognition
      */
-    private static final boolean TAKE_PICTURE_ON_BARCODE_DETECTION = true;
+    private boolean takePictureOnBarcodeDetection;
     /**
      * the preview width of the camera
      */
@@ -146,6 +146,8 @@ public class CameraPreviewView extends SurfaceView implements SurfaceHolder.Call
 
         Log.d(TAG, "started :)");
     }
+
+
 
 
     public void surfaceCreated(SurfaceHolder holder) {
@@ -326,7 +328,7 @@ public class CameraPreviewView extends SurfaceView implements SurfaceHolder.Call
         overlayView.changeCanvas(command);
 
 
-        if (TAKE_PICTURE_ON_BARCODE_DETECTION &&
+        if (takePictureOnBarcodeDetection &&
                 safeToTakePicture) {
             safeToTakePicture = false;
             displayToast("taking photo in " + PICTURE_TAKING_TIMEOUT / 1000 + " seconds");
@@ -418,4 +420,9 @@ public class CameraPreviewView extends SurfaceView implements SurfaceHolder.Call
             displayToast("Photo taken!");
         }
     };
+
+    public void loadSettings(boolean takePicture) {
+        takePictureOnBarcodeDetection = takePicture;
+        System.out.println("Changed settings " + takePicture);
+    }
 }
