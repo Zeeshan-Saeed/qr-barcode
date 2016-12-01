@@ -18,7 +18,13 @@
 
 
 ### Test images which are in the hardcoded database ###
+Barcode - connected with the command "right" - shows an image with an arrow to the right
 
+<img src="/testimages/barcode.jpg" alt="Drawing" width="200px"/>
+
+QR code - connected with the command "left" - shows an image with an arrow to the left
+
+<img src="/testimages/qrcode.png" alt="Drawing" width="200px"/>
 
 ### Who do I talk to? ###
 
