@@ -1,4 +1,4 @@
-package be.pxl.troger.ar;
+package com.michaeltroger.qrbarcode;
 
 import org.junit.Test;
 
