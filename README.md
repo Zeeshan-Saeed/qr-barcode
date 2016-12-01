@@ -29,3 +29,7 @@ QR code - connected with the command "left" - shows an image with an arrow to th
 ### Who do I talk to? ###
 
 * Repo owner and developer: android@michaeltroger.com
+
+### Credits ###
+
+* The barcode/qr-code detection is based on Desmond Shaw's Android Barcode Reader https://github.com/DynamsoftRD/Android-Barcode-Reader
