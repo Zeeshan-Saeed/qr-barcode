@@ -1,6 +1,5 @@
-package be.pxl.troger.ar;
+package com.michaeltroger.qrbarcode;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -13,8 +12,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.FrameLayout;
 
-import be.pxl.troger.ar.tools.CameraManager;
-import be.pxl.troger.ar.views.CameraPreviewView;
+import com.michaeltroger.qrbarcode.tools.CameraManager;
+import com.michaeltroger.qrbarcode.views.CameraPreviewView;
 
 /**
  * main activity, responsible for loading the layout and its views

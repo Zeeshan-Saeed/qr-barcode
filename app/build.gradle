@@ -2,10 +2,10 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 25
-    buildToolsVersion "25.0.0"
+    buildToolsVersion "25.0.1"
 
     defaultConfig {
-        applicationId "be.pxl.troger.qrbarcode"
+        applicationId "com.michaeltroger.qrbarcode"
         minSdkVersion 15
         targetSdkVersion 25
         versionCode 1
@@ -26,7 +26,7 @@ repositories { // added for ZXing
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
-    compile 'com.android.support:appcompat-v7:25.0.0'
-    compile 'com.android.support:design:25.0.0'
+    compile 'com.android.support:appcompat-v7:25.0.1'
+    compile 'com.android.support:design:25.0.1'
     compile 'com.google.zxing:core:3.3.0'
 }

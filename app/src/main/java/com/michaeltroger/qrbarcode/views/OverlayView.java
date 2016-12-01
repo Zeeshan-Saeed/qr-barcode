@@ -1,4 +1,4 @@
-package be.pxl.troger.ar.views;
+package com.michaeltroger.qrbarcode.views;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -12,7 +12,7 @@ import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
 
-import be.pxl.troger.ar.R;
+import com.michaeltroger.qrbarcode.R;
 
 /**
  * The overlay view is responsible for displaying

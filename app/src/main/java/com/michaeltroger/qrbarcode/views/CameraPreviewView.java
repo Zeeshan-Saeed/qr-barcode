@@ -1,4 +1,4 @@
-package be.pxl.troger.ar.views;
+package com.michaeltroger.qrbarcode.views;
 
 import android.app.ActivityManager;
 import android.content.Context;
@@ -27,9 +27,9 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.HashMap;
 
-import be.pxl.troger.ar.R;
-import be.pxl.troger.ar.tools.BarcodeDatabase;
-import be.pxl.troger.ar.MyActivity;
+import com.michaeltroger.qrbarcode.R;
+import com.michaeltroger.qrbarcode.tools.BarcodeDatabase;
+import com.michaeltroger.qrbarcode.MyActivity;
 
 
 /**

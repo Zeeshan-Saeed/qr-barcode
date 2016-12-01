@@ -1,4 +1,4 @@
-package be.pxl.troger.ar.tools;
+package com.michaeltroger.qrbarcode.tools;
 
 
 import android.content.Context;
@@ -50,7 +50,6 @@ public class CameraManager {
         mContext = context;
         // Get an instance of Camera
         mCamera = getCameraInstance();
-
 
         Log.d(TAG, "started :)");
     }
@@ -110,7 +109,6 @@ public class CameraManager {
                         + params.getPictureSize().width + "x"
                         + params.getPictureSize().height
         );
-
 
         Toast.makeText(mContext, "preview size = " + mCamera.getParameters().getPreviewSize().width +
                 ", " + mCamera.getParameters().getPreviewSize().height, Toast.LENGTH_SHORT).show();

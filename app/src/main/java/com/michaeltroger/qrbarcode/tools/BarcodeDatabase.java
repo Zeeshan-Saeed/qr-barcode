@@ -1,4 +1,4 @@
-package be.pxl.troger.ar.tools;
+package com.michaeltroger.qrbarcode.tools;
 
 import android.util.Log;
 
@@ -25,7 +25,7 @@ public class BarcodeDatabase {
      * create an instance of the BarcodeDatabase
      */
     public BarcodeDatabase() {
-        dataBase = new HashMap<String, String>();
+        dataBase = new HashMap<>();
         fillDatabase();
 
         Log.d(TAG, "started :)");
